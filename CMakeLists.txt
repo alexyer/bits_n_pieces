@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.6)
+project(bits_n_pieces)
+
+set(CMAKE_CXX_STANDARD 14)
+
+
+set(SOURCE_FILES main.cpp)
+add_executable(bits_n_pieces ${SOURCE_FILES})
+add_subdirectory(tutorials/boost/networking/timer1)
